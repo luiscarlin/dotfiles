@@ -9,3 +9,6 @@ source ~/.zsh/setopt.zsh
 
 # load nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# your path
+export PATH="$PATH"
