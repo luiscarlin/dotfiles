@@ -6,10 +6,13 @@
   diff = auto
   status = auto
   branch = auto
+  interactive = auto
   ui = true
 
 [core]
   editor = vim
+  eol = lf
+  autocrlf = input
 
 [credential]
   helper = cache --timeout 3600
