@@ -5,6 +5,7 @@ source ~/.zsh/completion.zsh
 source ~/.zsh/exports.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/setopt.zsh
+source ~/.zsh/bindings.zsh
 source ~/.zsh/prompt.zsh
 
 # load nvm
