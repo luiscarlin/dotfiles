@@ -12,4 +12,4 @@ source ~/.zsh/prompt.zsh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # your path
-export PATH="$PATH"
+export PATH="$PATH:$GRADLE_HOME/bin"
