@@ -1,4 +1,12 @@
-alias ls='ls --color=auto'  # make sure always use color with ls
+if [[ $(uname) == "Linux" ]]; then
+  alias ls='ls --color=auto'  # make sure always use color with ls
+elif [[ $(uname) == "Darwin" ]]; then
+  alias ls='ls -G'            # make sure always use color with ls
+else
+  echo "OS not supported"
+  exit 1
+fi
+
 alias ll='ls -lAh'          # long list, show all (without . and ..), human readable units
 alias l.='ls -ld .*'        # long list, show only ones starting with dot
 
