@@ -21,15 +21,12 @@ ln -sf ${current_dir}/.gitattributes ~/.gitattributes
 ln -sf ${current_dir}/.vimrc ~/.vimrc
 ln -sf ${current_dir}/.zshrc ~/.zshrc
 
-if [[ ! -f ${current_dir}/.exports-path ]]; then
-  echo "${current_dir}/.exports-path not found, so creating new one"
-  touch ${current_dir}/.exports-path
-
-  echo.
-  echo "Follow the sample file ${current_dir}/.exports-path.sample to use exports and path"
+if [[ ! -f ${current_dir}/.custom ]]; then
+  echo "${current_dir}/.custom not found, so creating new one"
+  touch ${current_dir}/.custom
 fi
 
-ln -sf ${current_dir}/.exports-path ~/.exports-path
+ln -sf ${current_dir}/.custom ~/.custom
 
-echo "done"
-echo "Add all your system specific exports and path to ${current_dir}/.exports-path"
+echo "Follow the sample file ${current_dir}/.custom.sample to adds custom exports"
+echo "done!"

@@ -6,4 +6,4 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # system specific exports and path
-source ~/.exports-path
+source ~/.custom

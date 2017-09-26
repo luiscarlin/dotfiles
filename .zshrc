@@ -9,4 +9,4 @@ source ~/.zsh/bindings.zsh
 source ~/.zsh/prompt.zsh
 
 # system specific exports and path
-source ~/.exports-path
+source ~/.custom
