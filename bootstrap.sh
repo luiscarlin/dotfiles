@@ -14,6 +14,7 @@ fi
 
 echo "Linking all dot files in ${current_dir} to ${HOME}"
 ln -sfn ${current_dir}/.zsh ~/.zsh
+ln -sfn ${current_dir}/.vim ~/.vim
 
 ln -sf ${current_dir}/.bashrc ~/.bashrc
 ln -sf ${current_dir}/.gitconfig ~/.gitconfig
