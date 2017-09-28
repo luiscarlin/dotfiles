@@ -1,19 +1,21 @@
 " Colors {{{
 syntax enable           " enable syntax processing
-colorscheme molokai
 
 " set Vim-specific sequences for RGB colors (before setting termguicolors)
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 set termguicolors
+colorscheme molokai
+
 " }}}
 
-" Spaces & Tabs {{{
+" Spaces & Tabs & Delete {{{
 set tabstop=2           " 2 space tab
 set expandtab           " use spaces for tabs
 set softtabstop=2       " 2 space tab
 filetype indent on      " load filetype-specific indent files
+set backspace=indent,eol,start
 " }}}
 
 " UI Layout {{{
