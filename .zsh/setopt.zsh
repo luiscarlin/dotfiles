@@ -1,5 +1,5 @@
-# enable auto-correction
-setopt correctall
+# disable auto-correction
+unsetopt correctall
 
 # autocompletion for aliases
 setopt COMPLETE_ALIASES
