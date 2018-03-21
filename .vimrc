@@ -28,5 +28,6 @@ set showmatch           " highlight matching [{()}]
 set ignorecase          " ignore case when searching
 set incsearch           " search as characters are entered
 set hlsearch            " highlight all matches
+set nohlsearch          " turn off previous seach results
 nnoremap <leader><space> :nohlsearch<CR>     " turn off search highlight by pressing <SPACE>
 " }}}
