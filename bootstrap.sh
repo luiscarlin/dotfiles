@@ -29,5 +29,5 @@ fi
 
 ln -sf ${current_dir}/.custom ~/.custom
 
-echo "Follow the sample file ${current_dir}/.custom.sample to adds custom exports"
+echo "Follow the sample file ${current_dir}/.custom.sample to add custom exports"
 echo "done!"
