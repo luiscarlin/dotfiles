@@ -10,3 +10,5 @@ source ~/.zsh/prompt.zsh
 
 # system specific exports and path
 source ~/.custom
+
+export PATH="$PATH:/usr/local/bin"
