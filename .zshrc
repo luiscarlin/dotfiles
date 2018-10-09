@@ -7,6 +7,7 @@ source ~/.zsh/history.zsh
 source ~/.zsh/setopt.zsh
 source ~/.zsh/bindings.zsh
 source ~/.zsh/prompt.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # system specific exports and path
 source ~/.custom

@@ -12,6 +12,10 @@ else
   exit 1
 fi
 
+echo "Downloading zsh-autosuggestions"
+rm -rf .zsh/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions .zsh/zsh-autosuggestions
+
 echo "Linking all dot files in ${current_dir} to ${HOME}"
 ln -sfn ${current_dir}/.zsh ~/.zsh
 ln -sfn ${current_dir}/.vim ~/.vim
