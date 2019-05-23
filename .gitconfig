@@ -13,7 +13,6 @@
   editor = vim
   eol = lf
   autocrlf = input
-  ignorecase = false
 
 [credential]
   helper = cache --timeout 3600
